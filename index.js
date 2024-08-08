@@ -105,7 +105,7 @@ app.use((req, res, next) => {
     next();
 });
 
-seedDB();
+// seedDB();
 
 // Routes require
 const productRoutes = require('./routes/product');

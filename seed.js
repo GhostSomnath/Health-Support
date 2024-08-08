@@ -66,7 +66,7 @@ async function seedDB(){
     console.log("data seeded successfully");
 }
 
-seedDB();
+// seedDB();
 module.exports = seedDB;
 
 
