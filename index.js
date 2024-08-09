@@ -59,6 +59,8 @@ app.get('/plans', (req, res) => {
     res.render("Plans/plans"); 
 });
 
+
+
 mongoose.set('strictQuery', true);
 mongoose.connect(dbURL)
     .then(() => console.log('DB Connected'))
